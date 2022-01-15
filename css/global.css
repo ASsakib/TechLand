@@ -1,0 +1,26 @@
+:root{
+    --fontfamily:'Cascadia Code',Times, serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontfamily);
+    scroll-behavior: smooth;
+}
+.nav-bg{
+    background-color: #302f2f;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+nav ul li{
+    text-transform: uppercase;
+}
+.carousel img{
+    height:35.8rem;
+}
+.bg-made{
+    background-color: #f1f1f1;
+}
